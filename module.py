@@ -1,10 +1,14 @@
 class Test:
-    def hi(self):
+    def sayHi(self):
         print("Hello!")
 
-    def say(self):
-        print("I'm your friend :) ")
+    def saySmt(self):
+        print("I'm an object.")
+
+    def sayBye(self):
+        print("Bye!")
 
 obj = Test()
-obj.hi()
-obj.say()
+obj.sayHi()
+obj.saySmt()
+obj.sayBye()
